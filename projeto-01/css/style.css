@@ -94,6 +94,86 @@ section.cover-form{
 .form-container form input[type=submit]:hover{
     background-color: hwb(196 5% 35%);
 }
+section.chamada{
+    width:1213px;
+    max-width:100%;
+    margin:0 auto;
+    padding:40px 0;
+    text-align: center;
+    background-color:#D7D6D7;
+}
+section.chamada h2{
+    display: inline-block;
+    font-size:30px;
+    color: white;
+    text-shadow:0px 2px 4px rgba(0,0,0,0.9);
+} 
+section.chamada p{
+    padding:10px 0;
+    color:black;
+} 
+section.mosaico{
+    display:flex;
+    width:1213px;
+    max-width:100%;
+    margin:0 auto;
+    background-color:#45403C;
+    
+}
+.maravilha1, .maravilha2, .maravilha3, .maravilha4, .maravilha5, .maravilha6, .maravilha7{
+    width:100%;
+    margin:10px 0;
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+    width:40%;
+    height:300px;
+    
+}
+.container-text h2{
+    width: 90%;
+    margin:20px 0;
+    padding:0 10px;
+    font-size:27px;
+    color: white;
+}
+.container-text p{
+    width: 90%;
+    text-align: justify;
+    padding:0 20px;
+    font-size: 18px;
+    color:white;
+}
+section.mosaico img{
+    width:60%;
+    float: right;
+    height:300px;
+    background-color:#ccc;
+}
+.maravilha2 .container-text, .maravilha4 .container-text, .maravilha6 .container-text{
+    float:right;
+}
+footer{
+    text-align: center;
+    padding:20px 0;
+    background-color:#D7D6D7;
+}
+footer p{
+    margin-top:8px;
+}
+footer a{
+    text-decoration: none;
+    color:blue;
+}
+footer img{
+    border-radius:4px;
+}
+
 @media screen and ( max-width: 510px){
     header{
         text-align: center;
@@ -102,5 +182,43 @@ section.cover-form{
         display: inline-block;
         float: none;
         margin-top:10px;
+    }
+    .form-container{
+        float: none;
+        width:90%;
+        margin:0 auto;
+    }
+    section.mosaico img, .container-text{
+        float:none;
+        display:block;
+        width:100%;
+    }
+    .container-text p, .container-text h2{
+        width: 100%;
+        
+    }
+}
+@media screen and ( max-width: 768px){
+    header{
+        text-align: center;
+    }
+    .logo-1, .logo-2{
+        display: inline-block;
+        float: none;
+        margin-top:10px;
+    }
+    .form-container{
+        float: none;
+        width:90%;
+        margin:0 auto;
+    }
+    section.mosaico img, .container-text{
+        float:none;
+        display:block;
+        width:100%;
+    }
+    .container-text p, .container-text h2{
+        width: 100%;
+        
     }
 }
