@@ -81,6 +81,9 @@ section.cover-form{
 .form-wraper:not(:first-child){
     margin-top:40px;
 }
+.form-wraper p:last-of-type{
+    margin-top:-5px;
+}
 .form-container form input[type=submit]{
     background-color: #033c50;
     text-transform: uppercase;
